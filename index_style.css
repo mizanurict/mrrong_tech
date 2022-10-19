@@ -1,0 +1,53 @@
+a{
+	text-decoration: none;
+}
+body{
+    background-color: rgb(176, 187, 187);
+}
+.header{
+    height: 55px;
+    width: 100%;
+    background-color: rgb(85, 233, 40);
+}
+.logo{
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.manu{
+    float:left;
+    padding-left: 60%;
+    padding-top: 10px;
+}
+.manu a{
+	color: rgb(85, 10, 161);
+	padding-left: 15px;    
+	font-size: 24px;    
+}
+.login{
+    float:right;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+.login a{
+	color: rgb(85, 10, 161);
+	padding-left: 15px;    
+	font-size: 24px;    
+}
+
+
+.middle{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(236, 205, 217);
+}
+.category{
+    float: left;
+    padding-left: 35px;
+    padding-top: 0px;
+}
+.topmost{
+    float: left;
+    padding-left: 300px;
+    padding-top: 0px;
+}

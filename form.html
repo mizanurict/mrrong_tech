@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Login Form</title>
+<style type="text/css">
+div {
+    margin-bottom: 5px;
+}
+label {
+display: block;
+float: left;
+width: 150px;
+text-align: right;
+font-weight: bold;
+margin-right: 10px;
+}
+input.submit {
+margin-left: 160px;
+}
+</style>
+    </head>
+    <body>
+        <form action="/form-processing-script" method="post">
+            <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" />
+            </div> 
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" />
+            </div>
+            <div>
+                <input type="submit" class="submit" value="Log In" />
+            </div>
+        </form>
+        <div><label>Check to my Email <input type="checkbox" name="spam" /></label> </div>
+        
+    </body>
+</html>
